@@ -24,18 +24,20 @@ When toggling focus modes, the app will:
    https://api.slack.com/custom-integrations/legacy-tokens
 1. Replace `<SLACK TOKEN HERE>` in `.env` with the token you just created
 1. In Focus app under Scripting, add the following lines, where `<PATH-TO-SLACK-FOCUS>` is the full path to where the `slack-focus` directory you created in step 1 lives.* I am using the default node installation location, but if it is different for you, then change that as well.
-  * Focus
-    ```
-    # slack focus
-    cd <PATH-TO-SLACK-FOCUS>
-    /usr/local/bin/node . focus
-    ```
-  * Unocus
-    ```
-    # slack focus
-    cd <PATH-TO-SLACK-FOCUS>
-    /usr/local/bin/node . unfocus
-    ```
+   * Focus
+   ```bash
+   # slack focus
+   cd <PATH-TO-SLACK-FOCUS>
+   /usr/local/bin/node . focus
+   ```
+   * Unfocus
+   ```bash
+   # slack focus
+   cd <PATH-TO-SLACK-FOCUS>
+   /usr/local/bin/node . unfocus
+   ```
+1. Under System Preferences > Security & Privacy > Privacy > Accessibility, give access to Focus (and Terminal if you want to use this through CLI) as seen below, so that it can set your do not disturb status.
+   ![Screenshot of Preferences](screen_control.png)
 1. Now when you Focus or Unfocus in Focus app, your slack and do not disturb state should change!
 
 ## Notes
