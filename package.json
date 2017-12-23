@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "do-not-disturb": "^1.0.1",
     "dotenv": "^4.0.0",
     "slack": "^9.0.5"
   }

@@ -1,6 +1,9 @@
+const doNotDisturb = require("do-not-disturb")
 const Slack = require("slack")
 require("dotenv").config()
 const slack = new Slack({token: process.env.TOKEN})
+
+doNotDisturb.on()
 
 slack.users.profile
   .set({
