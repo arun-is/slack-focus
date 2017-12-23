@@ -38,7 +38,7 @@ When toggling focus modes, the app will:
    ```
 1. Under System Preferences > Security & Privacy > Privacy > Accessibility, give access to Focus (and Terminal if you want to use this through CLI) as seen below, so that it can set your do not disturb status.
    ![Screenshot of Preferences](screen_control.png)
-1. Now when you Focus or Unfocus in Focus app, your slack and do not disturb state should change!
+1. Now when you focus or unfocus in Focus app, your slack and do not disturb state should change!
 
 ## Notes
 
