@@ -16,9 +16,9 @@ When toggling focus modes, the app will:
 1. Either clone this repo or download it to a local directory on your mac
 1. Within the `slack-focus/` directory create a file named `.env` with the contents of `.env.template` using the
    following command:
-  ```
-  cp .env.template .env
-  ```
+   ```
+   cp .env.template .env
+   ```
 1. Change the messages and emojis in the `.env` file to whatever you like.
 1. Create a legacy Slack API token at
    https://api.slack.com/custom-integrations/legacy-tokens
